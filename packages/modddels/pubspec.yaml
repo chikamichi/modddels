@@ -11,7 +11,7 @@ environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  analyzer: ^6.2.0
+  analyzer: ^7.4.5
   build: ^2.4.1
   collection: ^1.17.2
   fpdart: ^1.1.0
