@@ -1,4 +1,9 @@
 # See https://dart.dev/tools/pub/dependencies#dependency-overrides
 dependency_overrides:
+  #modddels_annotation_internal:
+  #  path: ../modddels_annotation_internal
   modddels_annotation_internal:
-    path: ../modddels_annotation_internal
+    git:
+      url: https://github.com/chikamichi/modddels
+      path: packages/modddels_annotation_internal
+      ref: wip-upgrade-pkg

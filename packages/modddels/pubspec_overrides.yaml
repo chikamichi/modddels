@@ -1,7 +1,22 @@
 # See https://dart.dev/tools/pub/dependencies#dependency-overrides
 dependency_overrides:
+  #modddels_annotation_internal:
+  #  path: ../modddels_annotation_internal
   modddels_annotation_internal:
-    path: ../modddels_annotation_internal
+    git:
+      url: https://github.com/chikamichi/modddels
+      path: packages/modddels_annotation_internal
+      ref: wip-upgrade-pkg
+  modddels_annotation_dartz:
+    git:
+      url: https://github.com/chikamichi/modddels
+      path: packages/modddels_annotation_dartz
+      ref: wip-upgrade-pkg
+  modddels_annotation_fpdart:
+    git:
+      url: https://github.com/chikamichi/modddels
+      path: packages/modddels_annotation_fpdart
+      ref: wip-upgrade-pkg
   # pub downgrade :
   # analyzer 5.12.0 => glob 2.0.0 => file 6.0.0
   # but we need minimum 6.1.3
