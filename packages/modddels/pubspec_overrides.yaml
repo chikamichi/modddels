@@ -1,5 +1,6 @@
 # See https://dart.dev/tools/pub/dependencies#dependency-overrides
 dependency_overrides:
+  freezed_annotation: ^3.0.0
   #modddels_annotation_internal:
   #  path: ../modddels_annotation_internal
   modddels_annotation_internal:
